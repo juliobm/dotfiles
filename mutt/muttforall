@@ -18,6 +18,8 @@ set move = no
 set editor = vim
 set sig_on_top = yes
 set send_charset="iso-8859-15:utf-8"
+#
+set sidebar_visible = no
 
 # How often to check for new mail (time in seconds).
 set mail_check = 120
@@ -30,6 +32,7 @@ set sort_alias= alias
 set reverse_alias=yes
 source $alias_file
 
+
 # deleted messages to trash not permanently
 macro	index,pager	d	"<save-message>=Trash<enter><enter>"	"move message to trash"
 
@@ -39,7 +42,7 @@ macro	index,pager	d	"<save-message>=Trash<enter><enter>"	"move message to trash"
 set wait_key = no        # shut up, mutt
 
 unset move               # gmail does that
-set delete               # don't ask, just do
+#set delete               # don't ask, just do
 unset confirmappend      # don't ask, just do!
 set quit                 # don't ask, just do!!
 unset mark_old           # read/new is good enough for me
