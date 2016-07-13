@@ -1,0 +1,20 @@
+application/pdf; evince %s
+application/octet-stream; eog %s
+application/msword; libreoffice5.1 %s
+application/rtf; libreoffice5.1 %s
+application/vnd.ms-word.document.12; libreoffice5.0 %s
+application/excel; libreoffice5.1 %s
+application/ms-exc; libreoffice5.1 %s
+application/x-msexcel; libreoffice5.1 %s
+application/vnd.openxml; libreoffice5.1 %s
+application/vnd.openxmlformats-officedocument.wordprocessingml.document; libreoffice5.1 %s
+application/vnd.ms-excel; libreoffice5.1 %s
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; libreoffice5.1 %s
+application/zip; file-roller %s
+text/html; firefox %s
+#image/jpeg; feh %s
+#image/png; feh %s
+image/jpeg; eog %s
+image/png; eog %s
+image/png; gif %s
+#text/html; lynx -dump %s; nametemplate=%s.html; copiousoutput
