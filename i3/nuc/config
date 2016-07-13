@@ -189,7 +189,8 @@ bindsym $mod+Pause mode "$mode_system"
 
 
 
-bindsym Print exec scrot '%Y-%m-%d-%T_$wx$h_scrot.png' -e 'mv $f ~/Imágenes/'
+#bindsym Print exec scrot '%Y-%m-%d-%T_$wx$h_scrot.png' -e 'mv $f ~/Imágenes/'
+bindsym Print exec xfce4-screenshooter
 # starting applications
 #exec --no-startup-id i3-msg 'sh ./kbdisfar.sh'
 exec --no-startup-id i3-msg 'workspace 1;exec firefox'
