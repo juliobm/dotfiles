@@ -11,7 +11,7 @@
 
 
 exec setxkbmap es
-exec --no-startup-id feh --bg-fill /home/julio/mis_moviles/mimoto.jpg
+exec --no-startup-id feh --bg-fill /home/julio/mis_moviles/comics/mona.jpg
 
 set $mod Mod4
 
@@ -196,11 +196,11 @@ bindsym Print exec xfce4-screenshooter
 exec --no-startup-id i3-msg 'workspace 1;exec firefox'
 exec --no-startup-id i3-msg 'workspace 2;exec sh /home/julio/disfar.sh'
 exec --no-startup-id i3-msg 'workspace 2;exec sh /home/julio/disfar.sh'
-exec --no-startup-id i3-msg 'workspace 2;exec gnome-terminal'
+exec --no-startup-id i3-msg 'workspace 3;exec gnome-terminal'
 #workspace 2; exec i3-msg split v
 exec --no-startup-id i3-msg 'workspace 4;exec thunderbird'
-exec --no-startup-id i3-msg 'workspace 5;exec Thunar'
-exec --no-startup-id i3-msg 'workspace 5;exec remmina'
+exec --no-startup-id i3-msg 'workspace 5;exec ranger'
+exec --no-startup-id i3-msg 'workspace 7;exec remmina'
 #workspace 1
 # sound
 set $sink `pactl list short sinks | grep RUNNING | cut -f1`
