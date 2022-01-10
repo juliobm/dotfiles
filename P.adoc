@@ -1,0 +1,26 @@
+= titulo
+
+# 1
+# 2
+# 3
+
+- a
+- b
+
+* c
+* d
+
+*negriya*
+_cursiva_
+
+
+== sigamos
+
+'monospa io' compara
+
+## y esto
+
+http://fedicom.julb.es
+
+
+
